@@ -1,0 +1,30 @@
+{
+  "name": "openldbws-mysql-rest-microservice",
+  "version": "1.0.0",
+  "description": "Steps to run the server:",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "start-old": "node ./src/server-original.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msklyarov/OpenLDBWS-MySQL-REST-MicroService.git"
+  },
+  "author": "Maxim Sklyarov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msklyarov/OpenLDBWS-MySQL-REST-MicroService/issues"
+  },
+  "homepage": "https://github.com/msklyarov/OpenLDBWS-MySQL-REST-MicroService#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "knex": "^0.13.0",
+    "soap": "^0.11.4",
+    "request": "^2.88.0"
+  },
+  "keywords": []
+}
